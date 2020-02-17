@@ -40,7 +40,6 @@ function fn(){
     var male = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-    }
 
 function getAkan() {
     var ismale = document.getElementById('male').checked;
@@ -93,7 +92,6 @@ function getAkan() {
             alert("your name is " + female[6]);
         }
     }
+    }
+    getAkan();
 }
-
-
-getAkan();
