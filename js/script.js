@@ -37,4 +37,24 @@ function fn(){
 
     var day = d.getDay();
 
+    function gender() {
+        var ismale = document.getElementById('male').checked;
+        var isfemale = document.getElementById('female').checked;
+
+        if (isfemale && ismale == true) {
+            document.getElementById("check-boxerror").innerHTML = "both cannot be checked. Select one";
+        }
+        else if (ismale && isfemale == false) {
+            document.getElementById("check-boxerror").innerHTML = "cannot be empty select your gender";
+        }
+        else if (ismale == true) {
+            return ismale;
+        }
+        else if (isfemale == true) {
+            return isfemale;
+        }
+    }
+
+    gender();
+
 }
