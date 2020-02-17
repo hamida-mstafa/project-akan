@@ -36,30 +36,8 @@ function fn(){
     }
 
     var day = d.getDay();
-
-    function gender() {
-        var ismale = document.getElementById('male').checked;
-        var isfemale = document.getElementById('female').checked;
-
-        if (isfemale && ismale == true) {
-            document.getElementById("check-boxerror").innerHTML = "both cannot be checked. Select one";
-        }
-        else if (ismale && isfemale == false) {
-            document.getElementById("check-boxerror").innerHTML = "cannot be empty select your gender";
-        }
-        else if (ismale == true) {
-            return ismale;
-        }
-        else if (isfemale == true) {
-            return isfemale;
-        }
-    }
-
-    gender();
-
-    var males = [{ "Sunday": "Kwasi", "Monday": "Kwadwo", "Tuesday": "Kwabena", "Wednesday": "Kwaku", "Thursday": "Yaw", "Friday": "Kofi", "Saturday": "Kwame" }];
-
-    var females = [{ "Sunday": "Akosua", "Monday": "Adwoa", "Tuesday": "Abenaa", "Wednesday": "Akua", "Thursday": "Yaa", "Friday": "Afua", "Saturday": "Ama" }];
-    
+    var days = ['sunday', 'monday', "tuesday", "wednesday", "thursday", "friday", "saturday"]
+    var male = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    var female = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 }
