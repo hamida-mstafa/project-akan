@@ -2,3 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.formelements{
+    height: 700px;
+    border: 1px solid black;
+    width: 900px;
+    padding: 60px;
+    position: relative;
+    margin:100px auto;
+}
