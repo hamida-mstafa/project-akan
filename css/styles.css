@@ -11,3 +11,7 @@ body{
     position: relative;
     margin:100px auto;
 }
+
+.form-control {
+    margin-bottom: 15px;
+}
