@@ -12,7 +12,23 @@
 <body>
     <div class="formelements">
         <form>
+            <h1>Enter your birth date:</h1>
+            <input type="text" id="day" class="form-control" placeholder="day">
+            <p id="dayerror"></p>
             
+            <input type="text" id="month" class="form-control" placeholder="month">
+            <p id="montherror"></p>
+            
+            <input type="text" id="year" class="form-control" placeholder="year">
+            <p id="yearerror"></p>
+            <h1>Select your gender</h1>
+            <label for="male">Male:</label>
+            <input type="checkbox" id="male" class="">
+            <label for="male">Female:</label>
+            <input type="checkbox" id="female" class=""><br>
+            <p id="check-boxerror"></p>
+            
+            <button type="button" onclick="fn()" class="btn btn-large btn-block btn-outline-primary">Get Akan Name</button>
         </form>
 </body>
 </html>
